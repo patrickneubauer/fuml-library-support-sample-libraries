@@ -9,7 +9,7 @@
             <source language="java">
               <region file="/0/@model.2/@inventoryElement.6" language="java"/>
             </source>
-            <comment text="/** &#xA; * This class tests the vehicle class.&#xA; * @author p.neubauer&#xA; */&#xA;"/>
+            <comment text="/** &#xA; * This class tests the vehicle class.&#xA; * @author patrickneubauer&#xA; */&#xA;"/>
             <codeRelation xsi:type="code:Imports" to="/0/@model.1/@codeElement.1/@codeElement.0/@codeElement.1" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0"/>
             <codeRelation xsi:type="code:Imports" to="/0/@model.0/@codeElement.0/@codeElement.5" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0"/>
             <codeRelation xsi:type="code:Imports" to="/0/@model.0/@codeElement.0/@codeElement.1" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0"/>
@@ -289,7 +289,7 @@
             <source language="java">
               <region file="/0/@model.2/@inventoryElement.7" language="java"/>
             </source>
-            <comment text="/** &#xA; * This class tests the motor cycle class.&#xA; * @author p.neubauer&#xA; */&#xA;"/>
+            <comment text="/** &#xA; * This class tests the motor cycle class.&#xA; * @author patrickneubauer&#xA; */&#xA;"/>
             <codeRelation xsi:type="code:Imports" to="/0/@model.1/@codeElement.1/@codeElement.0/@codeElement.1" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.1"/>
             <codeRelation xsi:type="code:Imports" to="/0/@model.0/@codeElement.0/@codeElement.6" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.1"/>
             <codeElement xsi:type="code:MethodUnit" name="MotorCycleConstructorTest" type="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.0">
@@ -555,7 +555,7 @@
             <source language="java">
               <region file="/0/@model.2/@inventoryElement.8" language="java"/>
             </source>
-            <comment text="/** &#xA; * This class tests the car class.&#xA; * @author p.neubauer&#xA; */&#xA;"/>
+            <comment text="/** &#xA; * This class tests the car class.&#xA; * @author patrickneubauer&#xA; */&#xA;"/>
             <codeRelation xsi:type="code:Imports" to="/0/@model.1/@codeElement.1/@codeElement.0/@codeElement.1" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.2"/>
             <codeRelation xsi:type="code:Imports" to="/0/@model.0/@codeElement.0/@codeElement.4" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.2"/>
             <codeElement xsi:type="code:MethodUnit" name="CarConstructorTest" type="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.2/@codeElement.0/@codeElement.0">
@@ -731,7 +731,7 @@
             <source language="java">
               <region file="/0/@model.2/@inventoryElement.9" language="java"/>
             </source>
-            <comment text="/** &#xA; * This class tests the truck class.&#xA; * @author p.neubauer&#xA; */&#xA;"/>
+            <comment text="/** &#xA; * This class tests the truck class.&#xA; * @author patrickneubauer&#xA; */&#xA;"/>
             <codeRelation xsi:type="code:Imports" to="/0/@model.1/@codeElement.1/@codeElement.0/@codeElement.1" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.3"/>
             <codeRelation xsi:type="code:Imports" to="/0/@model.0/@codeElement.0/@codeElement.2" from="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.3"/>
             <codeElement xsi:type="code:MethodUnit" name="TruckDefaultConstructorTest" type="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.3/@codeElement.0/@codeElement.0">
@@ -1103,7 +1103,7 @@
           <source language="java">
             <region file="/0/@model.2/@inventoryElement.0" language="java"/>
           </source>
-          <comment text="/** &#xA; * This class contains an enumeration on the available turns a vehicle can make.&#xA; * @author p.neubauer&#xA; */&#xA;"/>
+          <comment text="/** &#xA; * This class contains an enumeration on the available turns a vehicle can make.&#xA; * @author patrickneubauer&#xA; */&#xA;"/>
           <comment text="/** &#xA; */&#xA;"/>
           <value name="enum literal" type="/0/@model.0/@codeElement.0/@codeElement.1" ext="LEFT">
             <attribute tag="export" value="none"/>
@@ -1135,7 +1135,7 @@
           <source language="java">
             <region file="/0/@model.2/@inventoryElement.1" language="java"/>
           </source>
-          <comment text="/** &#xA; * This class represents a Truck.&#xA; * @author p.neubauer&#xA; */&#xA;"/>
+          <comment text="/** &#xA; * This class represents a Truck.&#xA; * @author patrickneubauer&#xA; */&#xA;"/>
           <codeRelation xsi:type="code:Extends" to="/0/@model.0/@codeElement.0/@codeElement.5" from="/0/@model.0/@codeElement.0/@codeElement.2"/>
           <codeElement xsi:type="code:StorableUnit" name="isPickup" type="/0/@model.0/@codeElement.1/@codeElement.4">
             <attribute tag="export" value="public"/>
@@ -1596,7 +1596,7 @@
           <source language="java">
             <region file="/0/@model.2/@inventoryElement.3" language="java"/>
           </source>
-          <comment text="/** &#xA; * This class represents a Car.&#xA; * @author p.neubauer&#xA; */&#xA;"/>
+          <comment text="/** &#xA; * This class represents a Car.&#xA; * @author patrickneubauer&#xA; */&#xA;"/>
           <codeRelation xsi:type="code:Extends" to="/0/@model.0/@codeElement.0/@codeElement.5" from="/0/@model.0/@codeElement.0/@codeElement.4"/>
           <codeElement xsi:type="code:MethodUnit" name="toString" type="/0/@model.0/@codeElement.0/@codeElement.4/@codeElement.0/@codeElement.0">
             <attribute tag="export" value="public"/>
@@ -1658,7 +1658,7 @@
           <source language="java">
             <region file="/0/@model.2/@inventoryElement.4" language="java"/>
           </source>
-          <comment text="/** &#xA; * This class represents a Vehicle.&#xA; * @author p.neubauer&#xA; */&#xA;"/>
+          <comment text="/** &#xA; * This class represents a Vehicle.&#xA; * @author patrickneubauer&#xA; */&#xA;"/>
           <codeRelation xsi:type="code:Imports" to="/0/@model.1/@codeElement.0/@codeElement.2/@codeElement.0" from="/0/@model.0/@codeElement.0/@codeElement.5"/>
           <codeElement xsi:type="code:StorableUnit" name="doors" type="/0/@model.0/@codeElement.1/@codeElement.0">
             <attribute tag="export" value="public"/>
@@ -2026,7 +2026,7 @@
           <source language="java">
             <region file="/0/@model.2/@inventoryElement.5" language="java"/>
           </source>
-          <comment text="/** &#xA; * This class represents a Motorcycle.&#xA; * @author p.neubauer&#xA; */&#xA;"/>
+          <comment text="/** &#xA; * This class represents a Motorcycle.&#xA; * @author patrickneubauer&#xA; */&#xA;"/>
           <codeRelation xsi:type="code:Extends" to="/0/@model.0/@codeElement.0/@codeElement.5" from="/0/@model.0/@codeElement.0/@codeElement.6"/>
           <codeElement xsi:type="code:MethodUnit" name="MotorCycle" type="/0/@model.0/@codeElement.0/@codeElement.6/@codeElement.0/@codeElement.0" kind="constructor">
             <attribute tag="export" value="public"/>
@@ -2447,16 +2447,16 @@
       </codeElement>
     </model>
     <model xsi:type="source:InventoryModel" name="source references">
-      <inventoryElement xsi:type="source:SourceFile" name="VehicleTurn.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/Vehicles/src/vehiclelibrary/VehicleTurn.java" language="java"/>
-      <inventoryElement xsi:type="source:SourceFile" name="Truck.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/Vehicles/src/vehiclelibrary/Truck.java" language="java"/>
-      <inventoryElement xsi:type="source:SourceFile" name="Main.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/Vehicles/src/vehiclelibrary/Main.java" language="java"/>
-      <inventoryElement xsi:type="source:SourceFile" name="Car.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/Vehicles/src/vehiclelibrary/Car.java" language="java"/>
-      <inventoryElement xsi:type="source:SourceFile" name="Vehicle.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/Vehicles/src/vehiclelibrary/Vehicle.java" language="java"/>
-      <inventoryElement xsi:type="source:SourceFile" name="MotorCycle.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/Vehicles/src/vehiclelibrary/MotorCycle.java" language="java"/>
-      <inventoryElement xsi:type="source:SourceFile" name="VehicleTest.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/Vehicles/src/vehiclelibrary/test/VehicleTest.java" language="java"/>
-      <inventoryElement xsi:type="source:SourceFile" name="MotorCycleTest.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/Vehicles/src/vehiclelibrary/test/MotorCycleTest.java" language="java"/>
-      <inventoryElement xsi:type="source:SourceFile" name="CarTest.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/Vehicles/src/vehiclelibrary/test/CarTest.java" language="java"/>
-      <inventoryElement xsi:type="source:SourceFile" name="TruckTest.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/Vehicles/src/vehiclelibrary/test/TruckTest.java" language="java"/>
+      <inventoryElement xsi:type="source:SourceFile" name="VehicleTurn.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/sample-libraries/Vehicles/src/vehiclelibrary/VehicleTurn.java" language="java"/>
+      <inventoryElement xsi:type="source:SourceFile" name="Truck.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/sample-libraries/Vehicles/src/vehiclelibrary/Truck.java" language="java"/>
+      <inventoryElement xsi:type="source:SourceFile" name="Main.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/sample-libraries/Vehicles/src/vehiclelibrary/Main.java" language="java"/>
+      <inventoryElement xsi:type="source:SourceFile" name="Car.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/sample-libraries/Vehicles/src/vehiclelibrary/Car.java" language="java"/>
+      <inventoryElement xsi:type="source:SourceFile" name="Vehicle.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/sample-libraries/Vehicles/src/vehiclelibrary/Vehicle.java" language="java"/>
+      <inventoryElement xsi:type="source:SourceFile" name="MotorCycle.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/sample-libraries/Vehicles/src/vehiclelibrary/MotorCycle.java" language="java"/>
+      <inventoryElement xsi:type="source:SourceFile" name="VehicleTest.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/sample-libraries/Vehicles/src/vehiclelibrary/test/VehicleTest.java" language="java"/>
+      <inventoryElement xsi:type="source:SourceFile" name="MotorCycleTest.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/sample-libraries/Vehicles/src/vehiclelibrary/test/MotorCycleTest.java" language="java"/>
+      <inventoryElement xsi:type="source:SourceFile" name="CarTest.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/sample-libraries/Vehicles/src/vehiclelibrary/test/CarTest.java" language="java"/>
+      <inventoryElement xsi:type="source:SourceFile" name="TruckTest.java" path="/Users/blizzfire/university/workspaces/eclipse_indigo/sample-libraries/Vehicles/src/vehiclelibrary/test/TruckTest.java" language="java"/>
     </model>
   </kdm:Segment>
   <kdm:Attribute tag="export" value="none"/>

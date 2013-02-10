@@ -5,19 +5,19 @@ import java.util.Random;
 /**
  * This class represents a Vehicle.
  * 
- * @author p.neubauer
+ * @author patrickneubauer
  *
  */
 public class Vehicle {
-	public int doors;
-	public int seats;
-	public int wheels;
-	public VehicleTurn lastTurn;
+	private int doors;
+	private int seats;
+	private int wheels;
+	private VehicleTurn lastTurn;
 	
 	public Vehicle() {
-		doors = 4;
-		seats = 4;
-		wheels = 4;
+		setDoors(4);
+		setSeats(4);
+		setWheels(4);
 		lastTurn = VehicleTurn.NOTURN;
 	}
 	
@@ -59,6 +59,55 @@ public class Vehicle {
 			turn = VehicleTurn.NOTURN;
 		}
 		lastTurn = turn;
+		return lastTurn;
+	}
+
+	/**
+	 * @return the doors
+	 */
+	public int getDoors() {
+		return doors;
+	}
+
+	/**
+	 * @param doors the doors to set
+	 */
+	public void setDoors(int doors) {
+		this.doors = doors;
+	}
+
+	/**
+	 * @return the seats
+	 */
+	public int getSeats() {
+		return seats;
+	}
+
+	/**
+	 * @param seats the seats to set
+	 */
+	public void setSeats(int seats) {
+		this.seats = seats;
+	}
+
+	/**
+	 * @return the wheels
+	 */
+	public int getWheels() {
+		return wheels;
+	}
+
+	/**
+	 * @param wheels the wheels to set
+	 */
+	public void setWheels(int wheels) {
+		this.wheels = wheels;
+	}
+	
+	/**
+	 * @return the lastTurn the vehicle has performed
+	 */
+	public VehicleTurn getLastTurn() {
 		return lastTurn;
 	}
 

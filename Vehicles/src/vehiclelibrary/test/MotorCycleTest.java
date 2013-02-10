@@ -9,7 +9,7 @@ import vehiclelibrary.MotorCycle;
 /**
  * This class tests the motor cycle class.
  * 
- * @author p.neubauer
+ * @author patrickneubauer
  *
  */
 public class MotorCycleTest {
@@ -18,18 +18,18 @@ public class MotorCycleTest {
 	public void MotorCycleConstructorTest() {
 		MotorCycle motorCycle1 = new MotorCycle();
 		assertTrue(motorCycle1 instanceof MotorCycle);
-		assertEquals(motorCycle1.seats, 1);
-		assertEquals(motorCycle1.doors, 0);
-		assertEquals(motorCycle1.wheels, 2);
+		assertEquals(motorCycle1.getSeats(), 1);
+		assertEquals(motorCycle1.getDoors(), 0);
+		assertEquals(motorCycle1.getWheels(), 2);
 	}
 	
 	@Test
 	public void setSeatsTest() {
 		MotorCycle motorCycle1 = new MotorCycle();
 		int numberOfSeats = 2;
-		assertEquals(motorCycle1.seats, 1);
+		assertEquals(motorCycle1.getSeats(), 1);
 		motorCycle1.setSeats(numberOfSeats);
-		assertEquals(motorCycle1.seats, numberOfSeats);
+		assertEquals(motorCycle1.getSeats(), numberOfSeats);
 	}
 	
 	@Test

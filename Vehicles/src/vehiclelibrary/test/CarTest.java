@@ -9,7 +9,7 @@ import vehiclelibrary.Car;
 /**
  * This class tests the car class.
  * 
- * @author p.neubauer
+ * @author patrickneubauer
  *
  */
 public class CarTest {
@@ -18,9 +18,9 @@ public class CarTest {
 	public void CarConstructorTest() {
 		Car car1 = new Car();
 		assertTrue(car1 instanceof Car);
-		assertEquals(car1.doors, 4);
-		assertEquals(car1.seats, 4);
-		assertEquals(car1.wheels, 4);
+		assertEquals(car1.getDoors(), 4);
+		assertEquals(car1.getSeats(), 4);
+		assertEquals(car1.getWheels(), 4);
 	}
 	
 	@Test

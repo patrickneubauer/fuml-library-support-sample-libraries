@@ -3,21 +3,17 @@ package vehiclelibrary;
 /**
  * This class represents a Motorcycle.
  * 
- * @author p.neubauer
+ * @author patrickneubauer
  *
  */
 public class MotorCycle extends Vehicle {
 	public MotorCycle() {
-		seats = 1;
-		doors = 0;
-		wheels = 2;
-	}
-	
-	public void setSeats(int numberOfSeats) {
-		seats = numberOfSeats;
-	}
+		setSeats(1);
+		setDoors(0);
+		setWheels(2);
+	}	
 	
 	public String toString() {
-		return "This motorcycle has " + seats + " seat(s), " + doors + " door(s) and " + wheels + " wheels."; 
+		return "This motorcycle has " + getSeats() + " seat(s), " + getDoors() + " door(s) and " + getWheels() + " wheels."; 
 	}
 }

@@ -3,7 +3,7 @@ package vehiclelibrary;
 /**
  * This class represents a Truck.
  * 
- * @author p.neubauer
+ * @author patrickneubauer
  *
  */
 public class Truck extends Vehicle {
@@ -20,14 +20,14 @@ public class Truck extends Vehicle {
 	}
 	
 	public Truck(int numberOfDoors, int numberOfSeats, int numberOfWheels, boolean aPickup) {
-		doors = numberOfDoors;
-		seats = numberOfSeats;
-		wheels = numberOfWheels;
+		setDoors(numberOfDoors);
+		setSeats(numberOfSeats);
+		setWheels(numberOfWheels);
 		isPickup = aPickup;
 	}
 	
 	public String toString() {
-		return "This " + (isPickup ? "pickup-" : "") + "truck has " + seats + " seats, " + doors + " doors and " + wheels + " wheels.";
+		return "This " + (isPickup ? "pickup-" : "") + "truck has " + getSeats() + " seats, " + getDoors() + " doors and " + getWheels() + " wheels.";
 	}
 	
 }

@@ -9,7 +9,7 @@ import vehiclelibrary.VehicleTurn;
 /**
  * This class tests the vehicle class.
  * 
- * @author p.neubauer
+ * @author patrickneubauer
  *
  */
 public class VehicleTest {
@@ -18,9 +18,9 @@ public class VehicleTest {
 	public void VehicleConstructorTest() {
 		Vehicle vehicle1 = new Vehicle();
 		assertTrue(vehicle1 instanceof Vehicle);
-		assertEquals(vehicle1.doors, 4);
-		assertEquals(vehicle1.seats, 4);
-		assertEquals(vehicle1.wheels, 4);
+		assertEquals(vehicle1.getDoors(), 4);
+		assertEquals(vehicle1.getSeats(), 4);
+		assertEquals(vehicle1.getWheels(), 4);
 	}
 	
 	@Test

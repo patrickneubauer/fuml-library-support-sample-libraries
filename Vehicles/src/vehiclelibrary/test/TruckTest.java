@@ -9,7 +9,7 @@ import vehiclelibrary.Truck;
 /**
  * This class tests the truck class.
  * 
- * @author p.neubauer
+ * @author patrickneubauer
  *
  */
 public class TruckTest {
@@ -37,9 +37,9 @@ public class TruckTest {
 		
 		Truck truck1 = new Truck(numberOfDoors, numberOfSeats, numberOfWheels, aPickup);
 		assertTrue(truck1 instanceof Truck);
-		assertEquals(numberOfDoors, truck1.doors);
-		assertEquals(numberOfSeats, truck1.seats);
-		assertEquals(numberOfWheels, truck1.wheels);
+		assertEquals(numberOfDoors, truck1.getDoors());
+		assertEquals(numberOfSeats, truck1.getSeats());
+		assertEquals(numberOfWheels, truck1.getWheels());
 		assertEquals(aPickup, truck1.isPickup);
 	}
 	

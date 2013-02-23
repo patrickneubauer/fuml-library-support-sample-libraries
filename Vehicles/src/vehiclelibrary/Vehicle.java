@@ -48,15 +48,13 @@ public class Vehicle {
 	public VehicleTurn nextTurn() {
 		Random random = new java.util.Random();
 		int randomInt = random.nextInt(3);
-		VehicleTurn turn;
+		VehicleTurn turn = VehicleTurn.NOTURN;
 		if (randomInt == 0) {
 			turn = VehicleTurn.LEFT;
 		} else if (randomInt == 1) {
 			turn = VehicleTurn.RIGHT;
 		} else if (randomInt == 2) {
 			turn = VehicleTurn.UTURN;
-		} else {
-			turn = VehicleTurn.NOTURN;
 		}
 		lastTurn = turn;
 		return lastTurn;

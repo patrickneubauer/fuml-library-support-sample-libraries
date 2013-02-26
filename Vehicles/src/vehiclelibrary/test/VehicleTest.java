@@ -38,5 +38,5 @@ public class VehicleTest {
 		VehicleTurn nextTurn = vehicle1.nextTurn();
 		assertTrue(nextTurn instanceof VehicleTurn);
 	}
-
+	
 }

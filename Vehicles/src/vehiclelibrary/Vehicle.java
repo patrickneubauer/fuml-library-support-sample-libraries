@@ -13,14 +13,16 @@ public class Vehicle {
 	private int seats;
 	private int wheels;
 	private VehicleTurn lastTurn;
+	private String vehicleId; // no getter/setter method
 	
 	public Vehicle() {
 		setDoors(4);
 		setSeats(4);
 		setWheels(4);
-		lastTurn = VehicleTurn.NOTURN;
+		lastTurn = VehicleTurn.NOTURN;		
+		vehicleId = "vehicle_" + new java.util.Random().nextInt(10000);
 	}
-	
+
 	/**
 	 * This method returns the current average wheel air pressure.
 	 * 

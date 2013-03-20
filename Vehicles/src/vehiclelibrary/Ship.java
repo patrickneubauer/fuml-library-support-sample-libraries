@@ -19,6 +19,8 @@ public class Ship extends Vehicle {
 	// by default, the Ship is an ocean liner
 	public Ship() {
 		setWheels(0);
+		setName("NoName");
+		length = 0;
 		oceanLiner = true;
 	}
 	
@@ -27,15 +29,25 @@ public class Ship extends Vehicle {
 		oceanLiner = anOceanLiner;
 	}
 	
-	public Ship(int numberOfDoors, int numberOfSeats, boolean anOceanLiner) {
+	public Ship(String name, int length, int numberOfDoors, int numberOfSeats, boolean anOceanLiner) {
 		this();
+		setName(name);
+		this.length = length;
 		setDoors(numberOfDoors);
 		setSeats(numberOfSeats);
 		oceanLiner = anOceanLiner;
 	}
 	
+	public void setName(String shipName) {
+		name = shipName;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
 	public String toString() {
-		return "This " + (oceanLiner ? "ocean liner " : "") + "ship, named " + name + ", with a length of " + length + " ft has " + getSeats() + " seats, " + getDoors() + " doors.";
+		return "This " + (oceanLiner ? "ocean liner " : "") + "ship, named " + getName() + ", with a length of " + length + " ft and has " + getSeats() + " seats, " + getDoors() + " doors.";
 	}
 
 }

@@ -38,17 +38,17 @@
         <comments xsi:type="java:LineComment" originalCompilationUnit="//@compilationUnits.1" content="// public (!) fields" prefixOfParent="true"/>
         <modifier visibility="public"/>
         <type type="//@orphanTypes.0"/>
-        <fragments originalCompilationUnit="//@compilationUnits.1" name="length"/>
+        <fragments originalCompilationUnit="//@compilationUnits.1" name="length" usageInVariableAccess="//@ownedElements.0/@ownedElements.1/@bodyDeclarations.6/@body/@statements.0/@expression/@extendedOperands.3"/>
       </bodyDeclarations>
       <bodyDeclarations xsi:type="java:FieldDeclaration" originalCompilationUnit="//@compilationUnits.1">
         <modifier visibility="public"/>
         <type type="//@ownedElements.1/@ownedPackages.0/@ownedElements.0"/>
-        <fragments originalCompilationUnit="//@compilationUnits.1" name="name"/>
+        <fragments originalCompilationUnit="//@compilationUnits.1" name="name" usageInVariableAccess="//@ownedElements.0/@ownedElements.1/@bodyDeclarations.6/@body/@statements.0/@expression/@extendedOperands.1"/>
       </bodyDeclarations>
       <bodyDeclarations xsi:type="java:FieldDeclaration" originalCompilationUnit="//@compilationUnits.1">
         <modifier visibility="public"/>
         <type type="//@orphanTypes.4"/>
-        <fragments originalCompilationUnit="//@compilationUnits.1" name="oceanLiner" usageInVariableAccess="//@ownedElements.0/@ownedElements.1/@bodyDeclarations.3/@body/@statements.1/@expression/@leftHandSide //@ownedElements.0/@ownedElements.1/@bodyDeclarations.4/@body/@statements.1/@expression/@leftHandSide //@ownedElements.0/@ownedElements.1/@bodyDeclarations.5/@body/@statements.3/@expression/@leftHandSide"/>
+        <fragments originalCompilationUnit="//@compilationUnits.1" name="oceanLiner" usageInVariableAccess="//@ownedElements.0/@ownedElements.1/@bodyDeclarations.3/@body/@statements.1/@expression/@leftHandSide //@ownedElements.0/@ownedElements.1/@bodyDeclarations.4/@body/@statements.1/@expression/@leftHandSide //@ownedElements.0/@ownedElements.1/@bodyDeclarations.5/@body/@statements.3/@expression/@leftHandSide //@ownedElements.0/@ownedElements.1/@bodyDeclarations.6/@body/@statements.0/@expression/@rightOperand/@expression/@expression"/>
       </bodyDeclarations>
       <bodyDeclarations xsi:type="java:ConstructorDeclaration" originalCompilationUnit="//@compilationUnits.1" name="Ship" usages="//@ownedElements.0/@ownedElements.1/@bodyDeclarations.4/@body/@statements.0 //@ownedElements.0/@ownedElements.1/@bodyDeclarations.5/@body/@statements.0">
         <comments xsi:type="java:LineComment" originalCompilationUnit="//@compilationUnits.1" content="// by default, the Ship is an ocean liner" prefixOfParent="true"/>
@@ -116,6 +116,33 @@
           <modifier/>
           <type type="//@orphanTypes.4"/>
         </parameters>
+      </bodyDeclarations>
+      <bodyDeclarations xsi:type="java:MethodDeclaration" originalCompilationUnit="//@compilationUnits.1" name="toString">
+        <modifier visibility="public"/>
+        <body originalCompilationUnit="//@compilationUnits.1">
+          <statements xsi:type="java:ReturnStatement" originalCompilationUnit="//@compilationUnits.1">
+            <expression xsi:type="java:InfixExpression" originalCompilationUnit="//@compilationUnits.1" operator="+">
+              <rightOperand xsi:type="java:ParenthesizedExpression" originalCompilationUnit="//@compilationUnits.1">
+                <expression xsi:type="java:ConditionalExpression" originalCompilationUnit="//@compilationUnits.1">
+                  <elseExpression xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.1" escapedValue="&quot;&quot;"/>
+                  <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedElements.1/@bodyDeclarations.2/@fragments.0"/>
+                  <thenExpression xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.1" escapedValue="&quot;ocean liner &quot;"/>
+                </expression>
+              </rightOperand>
+              <leftOperand xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.1" escapedValue="&quot;This &quot;"/>
+              <extendedOperands xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.1" escapedValue="&quot;ship, named &quot;"/>
+              <extendedOperands xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedElements.1/@bodyDeclarations.1/@fragments.0"/>
+              <extendedOperands xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.1" escapedValue="&quot;, with a length of &quot;"/>
+              <extendedOperands xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedElements.1/@bodyDeclarations.0/@fragments.0"/>
+              <extendedOperands xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.1" escapedValue="&quot; ft has &quot;"/>
+              <extendedOperands xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.1" method="//@ownedElements.0/@ownedElements.5/@bodyDeclarations.11"/>
+              <extendedOperands xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.1" escapedValue="&quot; seats, &quot;"/>
+              <extendedOperands xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.1" method="//@ownedElements.0/@ownedElements.5/@bodyDeclarations.9"/>
+              <extendedOperands xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.1" escapedValue="&quot; doors.&quot;"/>
+            </expression>
+          </statements>
+        </body>
+        <returnType type="//@ownedElements.1/@ownedPackages.0/@ownedElements.0"/>
       </bodyDeclarations>
       <superClass type="//@ownedElements.0/@ownedElements.5"/>
     </ownedElements>
@@ -616,7 +643,7 @@
         </body>
         <returnType type="//@ownedElements.0/@ownedElements.0"/>
       </bodyDeclarations>
-      <bodyDeclarations xsi:type="java:MethodDeclaration" originalCompilationUnit="//@compilationUnits.5" name="getDoors" usages="//@ownedElements.0/@ownedElements.6/@bodyDeclarations.1/@body/@statements.0/@expression/@extendedOperands.1 //@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.0/@body/@statements.2/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.3/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.0/@body/@statements.2/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.2/@body/@statements.6/@expression/@arguments.1 //@ownedElements.0/@ownedElements.2/@bodyDeclarations.4/@body/@statements.0/@expression/@extendedOperands.3 //@ownedElements.0/@ownedElements.4/@bodyDeclarations.0/@body/@statements.0/@expression/@extendedOperands.1">
+      <bodyDeclarations xsi:type="java:MethodDeclaration" originalCompilationUnit="//@compilationUnits.5" name="getDoors" usages="//@ownedElements.0/@ownedElements.6/@bodyDeclarations.1/@body/@statements.0/@expression/@extendedOperands.1 //@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.0/@body/@statements.2/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.3/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.0/@body/@statements.2/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.2/@body/@statements.6/@expression/@arguments.1 //@ownedElements.0/@ownedElements.1/@bodyDeclarations.6/@body/@statements.0/@expression/@extendedOperands.7 //@ownedElements.0/@ownedElements.2/@bodyDeclarations.4/@body/@statements.0/@expression/@extendedOperands.3 //@ownedElements.0/@ownedElements.4/@bodyDeclarations.0/@body/@statements.0/@expression/@extendedOperands.1">
         <comments xsi:type="java:Javadoc" originalCompilationUnit="//@compilationUnits.5" content="/** &#xA; * @return the doors&#xA; */&#xA;" prefixOfParent="true">
           <tags originalCompilationUnit="//@compilationUnits.5" tagName="@return">
             <fragments xsi:type="java:TextElement" originalCompilationUnit="//@compilationUnits.5" text=" the doors"/>
@@ -655,7 +682,7 @@
         </parameters>
         <returnType type="//@orphanTypes.5"/>
       </bodyDeclarations>
-      <bodyDeclarations xsi:type="java:MethodDeclaration" originalCompilationUnit="//@compilationUnits.5" name="getSeats" usages="//@ownedElements.0/@ownedElements.6/@bodyDeclarations.1/@body/@statements.0/@expression/@rightOperand //@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.0/@body/@statements.3/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.2/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.1/@body/@statements.2/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.1/@body/@statements.4/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.0/@body/@statements.3/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.2/@body/@statements.7/@expression/@arguments.1 //@ownedElements.0/@ownedElements.2/@bodyDeclarations.4/@body/@statements.0/@expression/@extendedOperands.1 //@ownedElements.0/@ownedElements.4/@bodyDeclarations.0/@body/@statements.0/@expression/@rightOperand">
+      <bodyDeclarations xsi:type="java:MethodDeclaration" originalCompilationUnit="//@compilationUnits.5" name="getSeats" usages="//@ownedElements.0/@ownedElements.6/@bodyDeclarations.1/@body/@statements.0/@expression/@rightOperand //@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.0/@body/@statements.3/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.2/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.1/@body/@statements.2/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.1/@body/@statements.4/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.0/@body/@statements.3/@expression/@arguments.0 //@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.2/@body/@statements.7/@expression/@arguments.1 //@ownedElements.0/@ownedElements.1/@bodyDeclarations.6/@body/@statements.0/@expression/@extendedOperands.5 //@ownedElements.0/@ownedElements.2/@bodyDeclarations.4/@body/@statements.0/@expression/@extendedOperands.1 //@ownedElements.0/@ownedElements.4/@bodyDeclarations.0/@body/@statements.0/@expression/@rightOperand">
         <comments xsi:type="java:Javadoc" originalCompilationUnit="//@compilationUnits.5" content="/** &#xA; * @return the seats&#xA; */&#xA;" prefixOfParent="true">
           <tags originalCompilationUnit="//@compilationUnits.5" tagName="@return">
             <fragments xsi:type="java:TextElement" originalCompilationUnit="//@compilationUnits.5" text=" the seats"/>
@@ -1367,7 +1394,7 @@
   </ownedElements>
   <ownedElements name="java" proxy="true" usagesInPackageAccess="//@ownedElements.0/@ownedElements.5/@bodyDeclarations.5/@body/@statements.4/@expression/@rightHandSide/@rightOperand/@expression/@type/@qualifier/@qualifier //@ownedElements.0/@ownedElements.5/@bodyDeclarations.6/@body/@statements.0/@fragments.0/@initializer/@type/@qualifier/@qualifier //@ownedElements.0/@ownedElements.5/@bodyDeclarations.8/@body/@statements.0/@fragments.0/@initializer/@type/@qualifier/@qualifier">
     <ownedPackages name="lang" proxy="true">
-      <ownedElements xsi:type="java:ClassDeclaration" name="String" proxy="true" usagesInTypeAccess="//@ownedElements.0/@ownedElements.1/@bodyDeclarations.1/@type //@ownedElements.0/@ownedElements.2/@bodyDeclarations.4/@returnType //@orphanTypes.9/@elementType //@ownedElements.1/@ownedPackages.1/@ownedElements.1/@bodyDeclarations.1/@parameters.0/@type //@ownedElements.0/@ownedElements.4/@bodyDeclarations.0/@returnType //@ownedElements.0/@ownedElements.5/@bodyDeclarations.4/@type //@ownedElements.0/@ownedElements.6/@bodyDeclarations.1/@returnType">
+      <ownedElements xsi:type="java:ClassDeclaration" name="String" proxy="true" usagesInTypeAccess="//@ownedElements.0/@ownedElements.1/@bodyDeclarations.1/@type //@ownedElements.0/@ownedElements.1/@bodyDeclarations.6/@returnType //@ownedElements.0/@ownedElements.2/@bodyDeclarations.4/@returnType //@orphanTypes.9/@elementType //@ownedElements.1/@ownedPackages.1/@ownedElements.1/@bodyDeclarations.1/@parameters.0/@type //@ownedElements.0/@ownedElements.4/@bodyDeclarations.0/@returnType //@ownedElements.0/@ownedElements.5/@bodyDeclarations.4/@type //@ownedElements.0/@ownedElements.6/@bodyDeclarations.1/@returnType">
         <superInterfaces type="//@ownedElements.1/@ownedPackages.1/@ownedElements.0"/>
         <superInterfaces type="//@ownedElements.1/@ownedPackages.0/@ownedElements.1"/>
         <superInterfaces type="//@ownedElements.1/@ownedPackages.0/@ownedElements.2"/>

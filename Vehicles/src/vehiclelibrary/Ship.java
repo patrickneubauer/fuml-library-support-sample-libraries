@@ -33,5 +33,9 @@ public class Ship extends Vehicle {
 		setSeats(numberOfSeats);
 		oceanLiner = anOceanLiner;
 	}
+	
+	public String toString() {
+		return "This " + (oceanLiner ? "ocean liner " : "") + "ship, named " + name + ", with a length of " + length + " ft has " + getSeats() + " seats, " + getDoors() + " doors.";
+	}
 
 }

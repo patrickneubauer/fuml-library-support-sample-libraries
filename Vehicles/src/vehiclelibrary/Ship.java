@@ -42,6 +42,14 @@ public class Ship extends Vehicle {
 		name = shipName;
 	}
 	
+	public void setLength(int length) {
+		this.length = length;
+	}
+	
+	public void setOceanLiner(boolean oceanLiner) {
+		this.oceanLiner = oceanLiner;
+	}
+	
 	public String getName() {
 		return name;
 	}

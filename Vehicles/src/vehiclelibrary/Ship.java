@@ -46,6 +46,14 @@ public class Ship extends Vehicle {
 		return name;
 	}
 	
+	public int getLength() {
+		return length;
+	}
+	
+	public boolean isOceanLiner() {
+		return oceanLiner;
+	}
+	
 	public String toString() {
 		return "This " + (oceanLiner ? "ocean liner " : "") + "ship, named " + getName() + ", with a length of " + length + " ft and has " + getSeats() + " seats, " + getDoors() + " doors.";
 	}

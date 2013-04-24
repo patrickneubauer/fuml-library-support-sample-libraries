@@ -22,7 +22,7 @@ public class ShipTest {
 	}
 	
 	@Test
-	public void ShipPickupContructorTest() {
+	public void ShipOceanLinerContructorTest() {
 		Ship ship1 = new Ship(false);
 		assertTrue(ship1 instanceof Ship);
 		assertEquals(false, ship1.oceanLiner);
@@ -49,6 +49,15 @@ public class ShipTest {
 	public void toStringTest() {
 		Ship ship1 = new Ship();
 		assertEquals("This ocean liner ship, named NoName, with a length of 0 ft and has 4 seats, 4 doors.", ship1.toString());
-	}
+	}	
 	
+	@Test
+	public void setNameLenghtOceanLinerTest() {
+		Ship ship1 = new Ship();
+		ship1.setNameLenghtOceanLiner("Titanic", 3500, true);
+		assertEquals("Titanic", ship1.getName());
+		assertEquals(3500, ship1.getLength());
+		assertEquals(true, ship1.isOceanLiner());
+	}
+
 }

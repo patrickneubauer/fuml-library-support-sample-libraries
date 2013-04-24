@@ -6,7 +6,7 @@ package vehiclelibrary;
 /**
  * This class represents a Ship
  * 
- * @author patrickneubauer
+ * @author Patrick Neubauer
  *
  */
 public class Ship extends Vehicle {
@@ -64,6 +64,16 @@ public class Ship extends Vehicle {
 	
 	public String toString() {
 		return "This " + (oceanLiner ? "ocean liner " : "") + "ship, named " + getName() + ", with a length of " + length + " ft and has " + getSeats() + " seats, " + getDoors() + " doors.";
+	}
+	
+	public Ship getShip() {
+		return this;
+	}
+	
+	public void setNameLenghtOceanLiner(String name, int length, boolean oceanLiner) {
+		this.name = name;
+		this.length = length;
+		this.oceanLiner = oceanLiner;
 	}
 
 }

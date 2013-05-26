@@ -7,6 +7,7 @@ package vehiclelibrary;
  *
  */
 public class MotorCycle extends Vehicle {
+	
 	public MotorCycle() {
 		setSeats(1);
 		setDoors(0);

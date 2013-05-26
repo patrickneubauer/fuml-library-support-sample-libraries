@@ -11,6 +11,9 @@ public class Truck extends Vehicle {
 	
 	// by default, the Truck is a Pickup Truck
 	public Truck() {
+		setWheels(4);
+		setDoors(2);
+		setSeats(3);
 		isPickup = true;
 	}
 	

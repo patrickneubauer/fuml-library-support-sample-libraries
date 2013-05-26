@@ -13,7 +13,9 @@ public class SpaceShip extends Vehicle {
 
 	// public (!) fields
 	public String name;
+	public int currentWarpSpeed;
 	public int maxWarpSpeed;
+	public boolean shieldActivation;
 
 	public ComplexEngine engine;
 
@@ -21,6 +23,8 @@ public class SpaceShip extends Vehicle {
 		setWheels(0);
 		setName("NoName");
 		setMaxWarpSpeed(3);
+		setCurrentWarpSpeed(0);
+		deactivateShield();
 		
 		this.engine = new ComplexEngine();
 	}
@@ -58,6 +62,29 @@ public class SpaceShip extends Vehicle {
 		this.name = name;
 		this.maxWarpSpeed = maxWarpSpeed;
 		this.engine.setFuel(fuel);
+	}
+	
+	/**
+	 * Sets the current warp speed (needs to be less or equal the maximum warp speed)
+	 * 
+	 * @param currentWarpSpeed the current warp speed
+	 * @return true if current warp speed has been successfully set, false otherwise
+	 */
+	public boolean setCurrentWarpSpeed(int currentWarpSpeed) {
+		if (currentWarpSpeed <= this.maxWarpSpeed) {
+			this.currentWarpSpeed = currentWarpSpeed;
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public void activateShield() {
+		this.shieldActivation = true;
+	}
+	
+	public void deactivateShield() {
+		this.shieldActivation = false;
 	}
 	
 }// SpaceShip

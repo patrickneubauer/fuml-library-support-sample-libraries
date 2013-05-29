@@ -41,7 +41,25 @@ public class SpaceShip extends Vehicle {
 		return engine;
 	}
 	
-	public void setEngine(ComplexEngine engine) {
+	/**
+	 * Sets the engine of the space ship and returns its horse power.
+	 * 
+	 * @param engine the engine to set
+	 * @return horse power of the engine
+	 */
+	public int setEngine(ComplexEngine engine) {
+		this.engine = engine;
+		return engine.getHorsePower();
+	}
+	
+	/**
+	 * Sets the engine of the space ship together with a specific fuel. 
+	 *  
+	 * @param engine the engine to set
+	 * @param fuel the fuel of the engine to be set
+	 */
+	public void setEngineWithFuel(ComplexEngine engine, Fuel fuel) {
+		engine.setFuel(fuel);
 		this.engine = engine;
 	}
 	

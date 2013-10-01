@@ -4650,6 +4650,34 @@
               </codeElement>
             </codeElement>
           </codeElement>
+          <codeElement xsi:type="code:MethodUnit" name="getEngine" type="/0/@model.0/@codeElement.0/@codeElement.8/@codeElement.8/@codeElement.0">
+            <attribute tag="export" value="public"/>
+            <source language="java">
+              <region file="/0/@model.2/@inventoryElement.7" language="java"/>
+            </source>
+            <codeElement xsi:type="code:Signature" name="getEngine">
+              <parameterUnit type="/0/@model.0/@codeElement.0/@codeElement.8" kind="return">
+                <source language="java">
+                  <region language="java"/>
+                </source>
+              </parameterUnit>
+            </codeElement>
+            <codeElement xsi:type="action:BlockUnit">
+              <source language="java">
+                <region file="/0/@model.2/@inventoryElement.7" language="java"/>
+              </source>
+              <codeElement xsi:type="action:ActionElement" name="return" kind="return">
+                <source language="java">
+                  <region file="/0/@model.2/@inventoryElement.7" language="java"/>
+                </source>
+                <codeElement xsi:type="action:ActionElement" name="this" kind="this">
+                  <source language="java">
+                    <region file="/0/@model.2/@inventoryElement.7" language="java"/>
+                  </source>
+                </codeElement>
+              </codeElement>
+            </codeElement>
+          </codeElement>
         </codeElement>
         <codeElement xsi:type="code:ClassUnit" name="Vehicle" isAbstract="false">
           <attribute tag="export" value="public"/>

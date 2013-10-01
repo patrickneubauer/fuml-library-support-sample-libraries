@@ -41,4 +41,8 @@ public class SimpleEngine {
 		this.vendor = vendor;
 	}
 
+	public SimpleEngine getEngine() {
+		return this;
+	}
+
 }// SimpleEngine

@@ -804,7 +804,7 @@
       </bodyDeclarations>
       <superClass type="//@ownedElements.0/@ownedElements.8"/>
     </ownedElements>
-    <ownedElements xsi:type="java:ClassDeclaration" originalCompilationUnit="//@compilationUnits.7" name="SimpleEngine" usagesInImports="//@compilationUnits.14/@imports.2" usagesInTypeAccess="//@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body/@statements.0/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body/@statements.0/@fragments.0/@initializer/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.1/@body/@statements.0/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.1/@body/@statements.0/@fragments.0/@initializer/@type //@ownedElements.0/@ownedElements.0/@superClass //@ownedElements.0/@ownedElements.6/@bodyDeclarations.0/@type //@ownedElements.0/@ownedElements.6/@bodyDeclarations.1/@body/@statements.3/@expression/@arguments.0/@type //@ownedElements.0/@ownedElements.6/@bodyDeclarations.2/@returnType //@ownedElements.0/@ownedElements.6/@bodyDeclarations.3/@parameters.0/@type">
+    <ownedElements xsi:type="java:ClassDeclaration" originalCompilationUnit="//@compilationUnits.7" name="SimpleEngine" usagesInImports="//@compilationUnits.14/@imports.2" usagesInTypeAccess="//@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body/@statements.0/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.0/@body/@statements.0/@fragments.0/@initializer/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.1/@body/@statements.0/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.1/@body/@statements.0/@fragments.0/@initializer/@type //@ownedElements.0/@ownedElements.0/@superClass //@ownedElements.0/@ownedElements.6/@bodyDeclarations.0/@type //@ownedElements.0/@ownedElements.6/@bodyDeclarations.1/@body/@statements.3/@expression/@arguments.0/@type //@ownedElements.0/@ownedElements.6/@bodyDeclarations.2/@returnType //@ownedElements.0/@ownedElements.6/@bodyDeclarations.3/@parameters.0/@type //@ownedElements.0/@ownedElements.7/@bodyDeclarations.8/@returnType">
       <comments xsi:type="java:Javadoc" originalCompilationUnit="//@compilationUnits.7" content="/** &#xA; * This class represents a simple Engine (only contains primitive types)&#xA; * @author Patrick Neubauer&#xA; */&#xA;" prefixOfParent="true">
         <tags originalCompilationUnit="//@compilationUnits.7">
           <fragments xsi:type="java:TextElement" originalCompilationUnit="//@compilationUnits.7" text="This class represents a simple Engine (only contains primitive types)"/>
@@ -917,6 +917,15 @@
           <type type="//@ownedElements.1/@ownedPackages.0/@ownedElements.0"/>
         </parameters>
         <returnType type="//@orphanTypes.5"/>
+      </bodyDeclarations>
+      <bodyDeclarations xsi:type="java:MethodDeclaration" originalCompilationUnit="//@compilationUnits.7" name="getEngine">
+        <modifier visibility="public"/>
+        <body originalCompilationUnit="//@compilationUnits.7">
+          <statements xsi:type="java:ReturnStatement" originalCompilationUnit="//@compilationUnits.7">
+            <expression xsi:type="java:ThisExpression" originalCompilationUnit="//@compilationUnits.7"/>
+          </statements>
+        </body>
+        <returnType type="//@ownedElements.0/@ownedElements.7"/>
       </bodyDeclarations>
     </ownedElements>
     <ownedElements xsi:type="java:ClassDeclaration" originalCompilationUnit="//@compilationUnits.8" name="Vehicle" usagesInImports="//@compilationUnits.12/@imports.2" usagesInTypeAccess="//@ownedElements.0/@ownedElements.9/@superClass //@ownedElements.0/@ownedElements.10/@superClass //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.0/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.0/@fragments.0/@initializer/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.1/@expression/@arguments.0/@rightOperand //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.1/@body/@statements.0/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.1/@body/@statements.0/@fragments.0/@initializer/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.2/@body/@statements.0/@type //@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.2/@body/@statements.0/@fragments.0/@initializer/@type //@ownedElements.0/@ownedElements.3/@superClass //@ownedElements.0/@ownedElements.4/@superClass //@ownedElements.0/@ownedElements.6/@superClass">

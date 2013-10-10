@@ -20,7 +20,7 @@ public class AirplaneTest {
 	@Test
 	public void toStringTest() {
 		Airplane airplane = new Airplane();
-		assertEquals("This multi-engine airplane Boeing 737-700 is aviated by NoFirstName NoLastName from NoNationality", airplane.toString());
+		assertEquals("This multi-engine airplane Boeing 737-700 is aviated by John Public (American)", airplane.toString());
 	}
 
 }

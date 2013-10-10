@@ -27,13 +27,13 @@ public class AviatorTest {
 	@Test
 	public void AviatorToStringTest() {
 		Aviator aviator = new Aviator();
-		assertEquals("The Aviator NoFirstName NoLastName (NoNationality) has licenses to fly single-engine airplanes; ", aviator.toString());
+		assertEquals("The Aviator John Public (American) has licenses to fly single-engine airplanes; ", aviator.toString());
 	}
 	
 	@Test
 	public void AviatorNoLicenseToStringTest() {
 		Aviator aviator = new Aviator(false, false, false, false);
-		assertEquals("The Aviator NoFirstName NoLastName (NoNationality) has no private pilot license.", aviator.toString());
+		assertEquals("The Aviator John Public (American) has no private pilot license.", aviator.toString());
 	}
 	
 }

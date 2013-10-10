@@ -29,13 +29,13 @@ public class DriverTest {
 	@Test
 	public void DriverToStringTest() {
 		Driver driver = new Driver();
-		assertEquals("The Driver NoFirstName NoLastName (NoNationality) has licenses to drive cars; ", driver.toString());
+		assertEquals("The Driver John Public (American) has licenses to drive cars; ", driver.toString());
 	}
 	
 	@Test
 	public void DriverNoLicenseToStringTest() {
 		Driver driver = new Driver(false, false, false);
-		assertEquals("The Driver NoFirstName NoLastName (NoNationality) has no car, motorcycle or truck license.", driver.toString());
+		assertEquals("The Driver John Public (American) has no car, motorcycle or truck license.", driver.toString());
 	}
 
 }

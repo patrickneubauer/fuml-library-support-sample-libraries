@@ -32,17 +32,17 @@
           <body originalCompilationUnit="//@compilationUnits.0">
             <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.0">
               <expression xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.0" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.6">
-                <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.0" escapedValue="&quot;NoFirstName&quot;"/>
+                <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.0" escapedValue="&quot;John&quot;"/>
               </expression>
             </statements>
             <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.0">
               <expression xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.0" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.8">
-                <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.0" escapedValue="&quot;NoLastName&quot;"/>
+                <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.0" escapedValue="&quot;Public&quot;"/>
               </expression>
             </statements>
             <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.0">
               <expression xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.0" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.10">
-                <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.0" escapedValue="&quot;NoNationality&quot;"/>
+                <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.0" escapedValue="&quot;American&quot;"/>
               </expression>
             </statements>
           </body>
@@ -1192,7 +1192,7 @@
               </statements>
               <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.4">
                 <expression xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.4" method="//@ownedElements.2/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2">
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.4" escapedValue="&quot;The Aviator NoFirstName NoLastName (NoNationality) has licenses to fly single-engine airplanes; &quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.4" escapedValue="&quot;The Aviator John Public (American) has licenses to fly single-engine airplanes; &quot;"/>
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.4" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.15">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@fragments.0"/>
                   </arguments>
@@ -1222,7 +1222,7 @@
               </statements>
               <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.4">
                 <expression xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.4" method="//@ownedElements.2/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2">
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.4" escapedValue="&quot;The Aviator NoFirstName NoLastName (NoNationality) has no private pilot license.&quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.4" escapedValue="&quot;The Aviator John Public (American) has no private pilot license.&quot;"/>
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.4" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.15">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@fragments.0"/>
                   </arguments>
@@ -1274,7 +1274,7 @@
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.5" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.5">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.0/@fragments.0"/>
                   </arguments>
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.5" escapedValue="&quot;NoFirstName&quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.5" escapedValue="&quot;John&quot;"/>
                 </expression>
               </statements>
               <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.5">
@@ -1282,7 +1282,7 @@
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.5" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.7">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.0/@fragments.0"/>
                   </arguments>
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.5" escapedValue="&quot;NoLastName&quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.5" escapedValue="&quot;Public&quot;"/>
                 </expression>
               </statements>
               <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.5">
@@ -1290,7 +1290,7 @@
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.5" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.9">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.0/@body/@statements.0/@fragments.0"/>
                   </arguments>
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.5" escapedValue="&quot;NoNationality&quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.5" escapedValue="&quot;American&quot;"/>
                 </expression>
               </statements>
             </body>
@@ -1377,7 +1377,7 @@
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.5" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.11">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.2/@body/@statements.0/@fragments.0"/>
                   </arguments>
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.5" escapedValue="&quot;NoFirstName NoLastName (NoNationality)&quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.5" escapedValue="&quot;John Public (American)&quot;"/>
                 </expression>
               </statements>
             </body>
@@ -1462,7 +1462,7 @@
               </statements>
               <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.6">
                 <expression xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.6" method="//@ownedElements.2/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2">
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.6" escapedValue="&quot;The Driver NoFirstName NoLastName (NoNationality) has licenses to drive cars; &quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.6" escapedValue="&quot;The Driver John Public (American) has licenses to drive cars; &quot;"/>
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.6" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.12">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.1/@body/@statements.0/@fragments.0"/>
                   </arguments>
@@ -1491,7 +1491,7 @@
               </statements>
               <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.6">
                 <expression xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.6" method="//@ownedElements.2/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2">
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.6" escapedValue="&quot;The Driver NoFirstName NoLastName (NoNationality) has no car, motorcycle or truck license.&quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.6" escapedValue="&quot;The Driver John Public (American) has no car, motorcycle or truck license.&quot;"/>
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.6" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.12">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.2/@bodyDeclarations.2/@body/@statements.0/@fragments.0"/>
                   </arguments>
@@ -1572,7 +1572,7 @@
               </statements>
               <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.7">
                 <expression xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.7" method="//@ownedElements.2/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2">
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.7" escapedValue="&quot;The Captain NoFirstName NoLastName (NoNationality) has licenses to command seaships; &quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.7" escapedValue="&quot;The Captain John Public (American) has licenses to command seaships; &quot;"/>
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.7" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.9">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.1/@body/@statements.0/@fragments.0"/>
                   </arguments>
@@ -1600,7 +1600,7 @@
               </statements>
               <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.7">
                 <expression xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.7" method="//@ownedElements.2/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2">
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.7" escapedValue="&quot;The Captain NoFirstName NoLastName (NoNationality) has no sea- or spaceship license.&quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.7" escapedValue="&quot;The Captain John Public (American) has no sea- or spaceship license.&quot;"/>
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.7" method="//@ownedElements.0/@ownedPackages.0/@ownedElements.1/@bodyDeclarations.9">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.3/@bodyDeclarations.2/@body/@statements.0/@fragments.0"/>
                   </arguments>
@@ -1681,7 +1681,7 @@
               </statements>
               <statements xsi:type="java:ExpressionStatement" originalCompilationUnit="//@compilationUnits.8">
                 <expression xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.8" method="//@ownedElements.2/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2">
-                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.8" escapedValue="&quot;This multi-engine airplane Boeing 737-700 is aviated by NoFirstName NoLastName from NoNationality&quot;"/>
+                  <arguments xsi:type="java:StringLiteral" originalCompilationUnit="//@compilationUnits.8" escapedValue="&quot;This multi-engine airplane Boeing 737-700 is aviated by John Public (American)&quot;"/>
                   <arguments xsi:type="java:MethodInvocation" originalCompilationUnit="//@compilationUnits.8" method="//@ownedElements.0/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.17">
                     <expression xsi:type="java:SingleVariableAccess" variable="//@ownedElements.0/@ownedPackages.1/@ownedPackages.1/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@fragments.0"/>
                   </arguments>

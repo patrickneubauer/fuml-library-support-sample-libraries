@@ -19,9 +19,9 @@ public class PersonTest {
 	public void PersonDefaultConstructorTest() {
 		Person person = new Person();
 		assertTrue(person instanceof Person);
-		assertEquals(person.getFirstName(), "NoFirstName");
-		assertEquals(person.getLastName(), "NoLastName");
-		assertEquals(person.getNationality(), "NoNationality");
+		assertEquals(person.getFirstName(), "John");
+		assertEquals(person.getLastName(), "Public");
+		assertEquals(person.getNationality(), "American");
 	}
 	
 	@Test
@@ -37,7 +37,7 @@ public class PersonTest {
 	public void PersonToStringTest() {
 		Person person = new Person();
 		assertTrue(person instanceof Person);
-		assertEquals(person.toString(), "NoFirstName NoLastName (NoNationality)");
+		assertEquals(person.toString(), "John Public (American)");
 	}
 	
 }

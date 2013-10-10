@@ -27,13 +27,13 @@ public class CaptainTest {
 	@Test
 	public void CaptainToStringTest() {
 		Captain captain = new Captain();
-		assertEquals("The Captain NoFirstName NoLastName (NoNationality) has licenses to command seaships; ", captain.toString());
+		assertEquals("The Captain John Public (American) has licenses to command seaships; ", captain.toString());
 	}
 	
 	@Test
 	public void CaptainNoLicenseToStringTest() {
 		Captain captain = new Captain(false, false);
-		assertEquals("The Captain NoFirstName NoLastName (NoNationality) has no sea- or spaceship license.", captain.toString());
+		assertEquals("The Captain John Public (American) has no sea- or spaceship license.", captain.toString());
 	}
 	
 }

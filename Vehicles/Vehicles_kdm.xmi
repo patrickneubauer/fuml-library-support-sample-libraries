@@ -46,7 +46,7 @@
                     <source language="java">
                       <region file="/0/@model.2/@inventoryElement.0" language="java"/>
                     </source>
-                    <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;NoFirstName&quot;">
+                    <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;John&quot;">
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.0" language="java"/>
                       </source>
@@ -62,7 +62,7 @@
                     <source language="java">
                       <region file="/0/@model.2/@inventoryElement.0" language="java"/>
                     </source>
-                    <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;NoLastName&quot;">
+                    <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;Public&quot;">
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.0" language="java"/>
                       </source>
@@ -78,7 +78,7 @@
                     <source language="java">
                       <region file="/0/@model.2/@inventoryElement.0" language="java"/>
                     </source>
-                    <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;NoNationality&quot;">
+                    <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;American&quot;">
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.0" language="java"/>
                       </source>
@@ -2649,7 +2649,7 @@
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.4" language="java"/>
                       </source>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Aviator NoFirstName NoLastName (NoNationality) has licenses to fly single-engine airplanes; &quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Aviator John Public (American) has licenses to fly single-engine airplanes; &quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.4" language="java"/>
                         </source>
@@ -2731,7 +2731,7 @@
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.4" language="java"/>
                       </source>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Aviator NoFirstName NoLastName (NoNationality) has no private pilot license.&quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Aviator John Public (American) has no private pilot license.&quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.4" language="java"/>
                         </source>
@@ -2825,7 +2825,7 @@
                         </source>
                         <actionRelation xsi:type="action:Calls" to="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.5" from="/0/@model.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.2/@codeElement.0/@codeElement.0"/>
                       </codeElement>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;NoFirstName&quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;John&quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.5" language="java"/>
                         </source>
@@ -2847,7 +2847,7 @@
                         </source>
                         <actionRelation xsi:type="action:Calls" to="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.7" from="/0/@model.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.3/@codeElement.0/@codeElement.0"/>
                       </codeElement>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;NoLastName&quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;Public&quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.5" language="java"/>
                         </source>
@@ -2869,7 +2869,7 @@
                         </source>
                         <actionRelation xsi:type="action:Calls" to="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.9" from="/0/@model.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.4/@codeElement.0/@codeElement.0"/>
                       </codeElement>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;NoNationality&quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;American&quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.5" language="java"/>
                         </source>
@@ -3086,7 +3086,7 @@
                         </source>
                         <actionRelation xsi:type="action:Calls" to="/0/@model.0/@codeElement.0/@codeElement.0/@codeElement.0/@codeElement.11" from="/0/@model.0/@codeElement.0/@codeElement.1/@codeElement.0/@codeElement.1/@codeElement.2/@codeElement.1/@codeElement.2/@codeElement.0/@codeElement.0"/>
                       </codeElement>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;NoFirstName NoLastName (NoNationality)&quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;John Public (American)&quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.5" language="java"/>
                         </source>
@@ -3260,7 +3260,7 @@
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.6" language="java"/>
                       </source>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Driver NoFirstName NoLastName (NoNationality) has licenses to drive cars; &quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Driver John Public (American) has licenses to drive cars; &quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.6" language="java"/>
                         </source>
@@ -3337,7 +3337,7 @@
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.6" language="java"/>
                       </source>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Driver NoFirstName NoLastName (NoNationality) has no car, motorcycle or truck license.&quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Driver John Public (American) has no car, motorcycle or truck license.&quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.6" language="java"/>
                         </source>
@@ -3499,7 +3499,7 @@
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.7" language="java"/>
                       </source>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Captain NoFirstName NoLastName (NoNationality) has licenses to command seaships; &quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Captain John Public (American) has licenses to command seaships; &quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.7" language="java"/>
                         </source>
@@ -3571,7 +3571,7 @@
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.7" language="java"/>
                       </source>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Captain NoFirstName NoLastName (NoNationality) has no sea- or spaceship license.&quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;The Captain John Public (American) has no sea- or spaceship license.&quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.7" language="java"/>
                         </source>
@@ -3766,7 +3766,7 @@
                       <source language="java">
                         <region file="/0/@model.2/@inventoryElement.8" language="java"/>
                       </source>
-                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;This multi-engine airplane Boeing 737-700 is aviated by NoFirstName NoLastName from NoNationality&quot;">
+                      <codeElement xsi:type="code:Value" name="string literal" type="/0/@model.0/@codeElement.1/@codeElement.9" ext="&quot;This multi-engine airplane Boeing 737-700 is aviated by John Public (American)&quot;">
                         <source language="java">
                           <region file="/0/@model.2/@inventoryElement.8" language="java"/>
                         </source>

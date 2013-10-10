@@ -13,9 +13,9 @@ public class Person {
 	private String nationality;
 	
 	public Person() {
-		setFirstName("NoFirstName");
-		setLastName("NoLastName");
-		setNationality("NoNationality");
+		setFirstName("John");
+		setLastName("Public");
+		setNationality("American");
 	}
 	
 	public Person(String firstName, String lastName, String nationality) {

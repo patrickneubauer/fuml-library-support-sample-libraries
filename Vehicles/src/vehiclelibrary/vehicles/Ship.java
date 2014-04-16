@@ -18,6 +18,9 @@ public class Ship extends Vehicle {
 	public String name;
 	public boolean oceanLiner;
 	
+	// static (!) field
+	public static boolean hasNoWheels = true;
+	
 	private Captain captain;
 	
 	// by default, the Ship is an ocean liner
@@ -41,6 +44,13 @@ public class Ship extends Vehicle {
 		setDoors(numberOfDoors);
 		setSeats(numberOfSeats);
 		oceanLiner = anOceanLiner;
+	}
+	
+	/*
+	 * Static method
+	 */
+	public static boolean hasNoWheels() {
+		return hasNoWheels;
 	}
 	
 	public void setName(String shipName) {

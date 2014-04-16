@@ -59,5 +59,11 @@ public class ShipTest {
 		assertEquals(3500, ship1.getLength());
 		assertEquals(true, ship1.isOceanLiner());
 	}
+	
+	@Test
+	public void ownsStaticFieldAndMethod() {
+		assertTrue(Ship.hasNoWheels);
+		assertTrue(Ship.hasNoWheels());
+	}
 
 }
